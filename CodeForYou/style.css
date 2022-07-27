@@ -119,11 +119,34 @@ i{
     text-align: center;
     color:rgb(255, 255, 255)
 }
-@media screen and (min-width:560px){
+@media screen and (min-width:660px){
     .nav-item {
         display: inline;
         font-size: 15px;
     } 
+    .nav-item{
+        color: rgb(255, 255, 255);
+        padding-right: 10px;
+    }
+    /*navbar contant coloring*/
+    .nav-link{
+        color: rgb(255, 255, 255) !important;
+       
+    }
+    /* navbar hover animation*/
+    .nav-link:hover{
+     color:yellow !important;
+     font-size: 18px;
+     
+    }
+    /*navbar contant*/
+    .navbar-nav{
+        padding-right: 140px;
+    }  
+    /* navbar image*/  
+    .navbar-brand img {
+        height: 40px;
+}
 }
 .h3-serve{
     color: aliceblue;
