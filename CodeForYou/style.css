@@ -182,11 +182,12 @@ address{
 .h4{
     color: whitesmoke;
     font-family: 'Courier New', Courier, monospace;
-
+    padding-top: 30px;
 }
 .skill-text{
     color: antiquewhite;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 30px;
 }
 .h6-progress{
     color: azure;
